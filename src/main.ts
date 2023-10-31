@@ -5,6 +5,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { resolve } from 'path';
 import { writeFileSync } from 'fs';
 import { config } from 'dotenv';
+
 config()
 
 async function bootstrap() {
